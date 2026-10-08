@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { safeFetchJson } from '../utils/api';
 import { 
   Users, Clock, AlertTriangle, AlertOctagon, Flame, 
   MapPin, Route, Sparkles, Download, CheckCircle2,
@@ -7,7 +8,8 @@ import {
   RotateCcw, Gauge, FileText, ChevronDown, Check, ArrowUpDown
 } from 'lucide-react';
 
-export default function Dashboard({ analytics, backendUrl, onNewAnalysis }) {
+export default function Dashboard({ analytics, backendUrl: rawBackendUrl, onNewAnalysis }) {
+  const backendUrl = (rawBackendUrl || '').replace(/\/+$/, '');
   // Navigation
   const [activeTab, setActiveTab] = useState('overview');
 
@@ -128,12 +130,11 @@ export default function Dashboard({ analytics, backendUrl, onNewAnalysis }) {
   const handleRegenerateReport = async () => {
     setIsRegeneratingReport(true);
     try {
-      const res = await fetch(`${backendUrl}/api/report/generate`, {
+      const data = await safeFetchJson(`${backendUrl}/api/report/generate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ jobId })
       });
-      const data = await res.json();
       if (data.report) {
         setCurrentReport(data.report);
       }

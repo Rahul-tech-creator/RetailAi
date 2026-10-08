@@ -5,7 +5,10 @@ import ZoneEditor from './components/ZoneEditor';
 import ProcessingView from './components/ProcessingView';
 import Dashboard from './components/Dashboard';
 
-const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import { safeFetchJson } from './utils/api';
+
+const rawUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const BACKEND_URL = rawUrl.replace(/\/+$/, '');
 
 export default function App() {
   const [currentStep, setCurrentStep] = useState('upload'); // 'upload', 'setup', 'processing', 'dashboard'
@@ -20,8 +23,7 @@ export default function App() {
 
   // Check backend health on mount
   useEffect(() => {
-    fetch(`${BACKEND_URL}/api/health`)
-      .then(res => res.json())
+    safeFetchJson(`${BACKEND_URL}/api/health`)
       .then(data => {
         if (data.status === 'ok') setApiStatus('online');
       })
@@ -33,8 +35,7 @@ export default function App() {
     if (currentStep === 'processing' && jobId) {
       pollIntervalRef.current = setInterval(async () => {
         try {
-          const res = await fetch(`${BACKEND_URL}/api/analysis/${jobId}/status`);
-          const statusData = await res.json();
+          const statusData = await safeFetchJson(`${BACKEND_URL}/api/analysis/${jobId}/status`);
 
           if (statusData.status === 'FAILED') {
             clearInterval(pollIntervalRef.current);
@@ -52,8 +53,7 @@ export default function App() {
           if (statusData.status === 'COMPLETED') {
             clearInterval(pollIntervalRef.current);
             // Fetch final analytics results
-            const resultsRes = await fetch(`${BACKEND_URL}/api/analysis/${jobId}/results`);
-            const resultsData = await resultsRes.json();
+            const resultsData = await safeFetchJson(`${BACKEND_URL}/api/analysis/${jobId}/results`);
             setAnalytics(resultsData);
             setCurrentStep('dashboard');
           }
@@ -82,7 +82,7 @@ export default function App() {
     setCurrentStep('processing');
 
     try {
-      const res = await fetch(`${BACKEND_URL}/api/analysis/start`, {
+      const data = await safeFetchJson(`${BACKEND_URL}/api/analysis/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -93,9 +93,8 @@ export default function App() {
         })
       });
 
-      const data = await res.json();
-      if (!res.ok || !data.success) {
-        throw new Error(data.error || 'Failed to start analysis');
+      if (!data.jobId) {
+        throw new Error('No jobId returned from backend server');
       }
 
       setJobId(data.jobId);

@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react';
 import { UploadCloud, Film, PlayCircle, ShieldCheck, CheckCircle2, AlertCircle } from 'lucide-react';
+import { safeFetchJson } from '../utils/api';
 
-export default function VideoUpload({ onUploadSuccess, backendUrl }) {
+export default function VideoUpload({ onUploadSuccess, backendUrl: rawBackendUrl }) {
+  const backendUrl = (rawBackendUrl || '').replace(/\/+$/, '');
   const [isDragging, setIsDragging] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState(0);
@@ -42,17 +44,10 @@ export default function VideoUpload({ onUploadSuccess, backendUrl }) {
 
     try {
       setUploadProgress(40);
-      const res = await fetch(`${backendUrl}/api/videos/upload`, {
+      const data = await safeFetchJson(`${backendUrl}/api/videos/upload`, {
         method: 'POST',
         body: formData
       });
-
-      setUploadProgress(85);
-      const data = await res.json();
-
-      if (!res.ok || !data.success) {
-        throw new Error(data.error || 'Failed to upload video');
-      }
 
       setUploadProgress(100);
       setTimeout(() => {
@@ -74,18 +69,9 @@ export default function VideoUpload({ onUploadSuccess, backendUrl }) {
     setUploadProgress(20);
 
     try {
-      // Fetch sample video from server uploads
-      const sampleBlobRes = await fetch(`${backendUrl}/api/videos/sample-proxy`).catch(() => null);
-      
-      // If sample-proxy endpoint or direct upload
-      const res = await fetch(`${backendUrl}/api/videos/load-sample`, {
+      const data = await safeFetchJson(`${backendUrl}/api/videos/load-sample`, {
         method: 'POST'
       });
-      
-      const data = await res.json();
-      if (!res.ok || !data.success) {
-        throw new Error(data.error || 'Failed to load sample video');
-      }
 
       setUploadProgress(100);
       setTimeout(() => {
@@ -95,10 +81,9 @@ export default function VideoUpload({ onUploadSuccess, backendUrl }) {
     } catch (err) {
       // Fallback: request server to process the existing sample_retail_cctv.mp4 directly
       try {
-        const directRes = await fetch(`${backendUrl}/api/videos/use-existing-sample`, {
+        const data = await safeFetchJson(`${backendUrl}/api/videos/use-existing-sample`, {
           method: 'POST'
         });
-        const data = await directRes.json();
         if (data.success) {
           setUploadProgress(100);
           setTimeout(() => onUploadSuccess(data.video), 400);
