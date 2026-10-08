@@ -16,7 +16,7 @@ const { generateHtmlReport } = require('./htmlReportGenerator');
 
 const app = express();
 const PORT = process.env.PORT || process.env.BACKEND_PORT || 5000;
-const CV_SERVICE_URL = process.env.CV_SERVICE_URL || 'http://localhost:8000';
+const CV_SERVICE_URL = (process.env.CV_SERVICE_URL || 'http://localhost:8000').replace(/\/+$/, '');
 
 const UPLOADS_DIR = path.resolve(__dirname, '..', 'uploads');
 const PROCESSED_DIR = path.resolve(__dirname, '..', 'processed');
@@ -28,6 +28,31 @@ fs.mkdirSync(PROCESSED_DIR, { recursive: true });
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
+
+// Serve static uploads and processed files
+app.use('/uploads', express.static(UPLOADS_DIR));
+app.use('/processed', express.static(PROCESSED_DIR));
+
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'retail-spatial-intelligence-api',
+    version: '1.0.0'
+  });
+});
+
+// Helper to determine video path/URL for CV service
+function getCVVideoPath(req, filePathOrName) {
+  const isRemoteCV = CV_SERVICE_URL.includes('onrender.com') || (!CV_SERVICE_URL.includes('localhost') && !CV_SERVICE_URL.includes('127.0.0.1'));
+  if (isRemoteCV && req) {
+    const protocol = req.headers['x-forwarded-proto'] || req.protocol || 'https';
+    const host = req.get('host');
+    const fileName = path.basename(filePathOrName);
+    return `${protocol}://${host}/uploads/${fileName}`;
+  }
+  return filePathOrName;
+}
 
 // Multer Storage Configuration
 const storage = multer.diskStorage({
@@ -87,7 +112,7 @@ app.post('/api/videos/upload', upload.single('video'), async (req, res) => {
     // Request metadata from CV service
     let metadata = {};
     try {
-      const metaRes = await axios.post(`${CV_SERVICE_URL}/metadata`, { video_path: filePath }, { timeout: 10000 });
+      const metaRes = await axios.post(`${CV_SERVICE_URL}/metadata`, { video_path: getCVVideoPath(req, filePath) }, { timeout: 10000 });
       metadata = metaRes.data;
     } catch (err) {
       console.warn('[Upload] Could not extract metadata from CV service:', err.message);
@@ -105,7 +130,7 @@ app.post('/api/videos/upload', upload.single('video'), async (req, res) => {
     const framePath = path.join(PROCESSED_DIR, `${videoId}_frame.jpg`);
     try {
       await axios.post(`${CV_SERVICE_URL}/extract-frame`, {
-        video_path: filePath,
+        video_path: getCVVideoPath(req, filePath),
         output_path: framePath
       }, { timeout: 10000 });
     } catch (err) {
@@ -150,7 +175,7 @@ app.post('/api/videos/load-sample', async (req, res) => {
     // Request metadata from CV service
     let metadata = {};
     try {
-      const metaRes = await axios.post(`${CV_SERVICE_URL}/metadata`, { video_path: samplePath }, { timeout: 10000 });
+      const metaRes = await axios.post(`${CV_SERVICE_URL}/metadata`, { video_path: getCVVideoPath(req, samplePath) }, { timeout: 10000 });
       metadata = metaRes.data;
     } catch (err) {
       metadata = {
@@ -167,7 +192,7 @@ app.post('/api/videos/load-sample', async (req, res) => {
     const framePath = path.join(PROCESSED_DIR, `${videoId}_frame.jpg`);
     try {
       await axios.post(`${CV_SERVICE_URL}/extract-frame`, {
-        video_path: samplePath,
+        video_path: getCVVideoPath(req, samplePath),
         output_path: framePath
       }, { timeout: 10000 });
     } catch (err) {
@@ -253,7 +278,7 @@ app.post('/api/analysis/start', async (req, res) => {
     console.log(`[Analysis] Starting CV job ${jobId} for video ${video.filename}`);
     const cvPayload = {
       job_id: jobId,
-      video_path: video.filePath,
+      video_path: getCVVideoPath(req, video.filePath),
       output_dir: PROCESSED_DIR,
       custom_zones: zonesToUse.length > 0 ? zonesToUse : null,
       frame_skip: frameSkip || 2,

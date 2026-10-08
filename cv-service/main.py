@@ -101,6 +101,29 @@ def run_pipeline_task(req: ProcessRequest):
             JOBS[job_id]["stage"] = "Processing failed"
             JOBS[job_id]["error"] = str(e)
 
+def ensure_local_video(video_path: str) -> str:
+    """Downloads remote HTTP/HTTPS video files to local uploads directory if needed."""
+    if not video_path:
+        return video_path
+
+    if video_path.startswith("http://") or video_path.startswith("https://"):
+        filename = os.path.basename(video_path.split("?")[0])
+        local_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "uploads"))
+        os.makedirs(local_dir, exist_ok=True)
+        local_path = os.path.join(local_dir, filename)
+        if not os.path.exists(local_path) or os.path.getsize(local_path) == 0:
+            import requests
+            print(f"[CV-Service] Downloading remote video from {video_path}...")
+            res = requests.get(video_path, stream=True, timeout=120)
+            res.raise_for_status()
+            with open(local_path, "wb") as f:
+                for chunk in res.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            print(f"[CV-Service] Downloaded video ({os.path.getsize(local_path)} bytes) to {local_path}")
+        return local_path
+
+    return video_path
+
 @app.get("/")
 @app.get("/health")
 def health():
@@ -109,10 +132,11 @@ def health():
 @app.post("/metadata")
 def get_metadata(req: MetadataRequest):
     """Extracts duration, fps, resolution, and frame count from video."""
-    if not os.path.exists(req.video_path):
+    video_path = ensure_local_video(req.video_path)
+    if not os.path.exists(video_path):
         raise HTTPException(status_code=404, detail="Video file not found")
 
-    cap = cv2.VideoCapture(req.video_path)
+    cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         raise HTTPException(status_code=400, detail="Cannot open video file")
 
@@ -136,10 +160,11 @@ def get_metadata(req: MetadataRequest):
 @app.post("/extract-frame")
 def extract_frame(req: FrameExtractRequest):
     """Extracts middle frame as representative video frame."""
-    if not os.path.exists(req.video_path):
+    video_path = ensure_local_video(req.video_path)
+    if not os.path.exists(video_path):
         raise HTTPException(status_code=404, detail="Video file not found")
 
-    cap = cv2.VideoCapture(req.video_path)
+    cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         raise HTTPException(status_code=400, detail="Cannot open video file")
 
@@ -164,6 +189,7 @@ def extract_frame(req: FrameExtractRequest):
 @app.post("/process")
 def start_process(req: ProcessRequest, background_tasks: BackgroundTasks):
     """Starts asynchronous computer vision processing."""
+    req.video_path = ensure_local_video(req.video_path)
     if not os.path.exists(req.video_path):
         raise HTTPException(status_code=404, detail="Video file not found")
 
