@@ -1,0 +1,44 @@
+# Environment files (secrets & API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dynamic project uploads and processed video artifacts
+uploads/*
+!uploads/.gitkeep
+processed/*
+!processed/.gitkeep
+analytics/db.json
+
+# Build outputs
+frontend/dist/
+frontend/build/
+.vite/
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

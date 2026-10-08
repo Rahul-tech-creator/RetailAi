@@ -1,0 +1,3361 @@
+{
+  "job_id": "3c3035e7-a914-4999-9fda-6031e0629eea",
+  "status": "COMPLETED",
+  "videoMetadata": {
+    "filename": "sample_retail_cctv.mp4",
+    "duration_seconds": 49.67,
+    "fps": 12.0,
+    "resolution": "768x432",
+    "processed_resolution": "768x432",
+    "frame_count": 596,
+    "scale_factor": 1.0
+  },
+  "video_metadata": {
+    "filename": "sample_retail_cctv.mp4",
+    "duration_seconds": 49.67,
+    "fps": 12.0,
+    "resolution": "768x432",
+    "processed_resolution": "768x432",
+    "frame_count": 596,
+    "scale_factor": 1.0
+  },
+  "processingStats": {
+    "processing_time_sec": 37.21,
+    "frame_skip": 2,
+    "processed_fps": 6.0,
+    "frames_analyzed": 596,
+    "total_video_frames": 596,
+    "processed_resolution": "768x432",
+    "original_resolution": "768x432"
+  },
+  "processing_stats": {
+    "processing_time_sec": 37.21,
+    "frame_skip": 2,
+    "processed_fps": 6.0,
+    "frames_analyzed": 596,
+    "total_video_frames": 596,
+    "processed_resolution": "768x432",
+    "original_resolution": "768x432"
+  },
+  "trackingQuality": {
+    "total_tracks": 7,
+    "raw_tracks_count": 7,
+    "valid_visitors_count": 7,
+    "short_tracks_filtered": 0,
+    "min_track_duration_sec": 1.0,
+    "avg_track_duration_sec": 4.5,
+    "avg_confidence": 0.83,
+    "rating": "Good",
+    "confidence_level": "High",
+    "notes": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+    "confidence_penalty": false,
+    "limitations": [
+      "Uncalibrated 2D monocular camera view; speeds measured in image-space pixels/second",
+      "Occlusion by tall shelving or group clusters can cause brief track fragmentation",
+      "Customer counts represent unique anonymous tracks filtered above duration threshold"
+    ]
+  },
+  "tracking_quality": {
+    "total_tracks": 7,
+    "raw_tracks_count": 7,
+    "valid_visitors_count": 7,
+    "short_tracks_filtered": 0,
+    "min_track_duration_sec": 1.0,
+    "avg_track_duration_sec": 4.5,
+    "avg_confidence": 0.83,
+    "rating": "Good",
+    "confidence_level": "High",
+    "notes": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+    "confidence_penalty": false,
+    "limitations": [
+      "Uncalibrated 2D monocular camera view; speeds measured in image-space pixels/second",
+      "Occlusion by tall shelving or group clusters can cause brief track fragmentation",
+      "Customer counts represent unique anonymous tracks filtered above duration threshold"
+    ]
+  },
+  "visitorStats": {
+    "unique_visitors": 7,
+    "raw_tracks_detected": 7,
+    "short_tracks_filtered": 0,
+    "total_zone_visits": 6,
+    "peak_store_occupancy": 3,
+    "avg_store_occupancy": 0.65,
+    "avg_visit_duration_sec": 4.5,
+    "avg_dwell_time_sec": 2.03,
+    "median_dwell_time_sec": 2.0,
+    "relative_speed": {
+      "overall_avg_speed_px_sec": 99.0,
+      "zone_avg_speeds": {
+        "zone_south_display": 107.7,
+        "zone_north_corridor": 89.9
+      },
+      "speed_label": "Image-Space Relative Movement Speed (px/sec)",
+      "unit": "px/s",
+      "calibration_status": "Uncalibrated monocular camera perspective"
+    }
+  },
+  "visitor_summary": {
+    "unique_visitors": 7,
+    "raw_tracks_detected": 7,
+    "short_tracks_filtered": 0,
+    "total_zone_visits": 6,
+    "peak_store_occupancy": 3,
+    "avg_store_occupancy": 0.65,
+    "avg_visit_duration_sec": 4.5,
+    "avg_dwell_time_sec": 2.03,
+    "median_dwell_time_sec": 2.0,
+    "relative_speed": {
+      "overall_avg_speed_px_sec": 99.0,
+      "zone_avg_speeds": {
+        "zone_south_display": 107.7,
+        "zone_north_corridor": 89.9
+      },
+      "speed_label": "Image-Space Relative Movement Speed (px/sec)",
+      "unit": "px/s",
+      "calibration_status": "Uncalibrated monocular camera perspective"
+    }
+  },
+  "zoneStats": [
+    {
+      "id": "zone_north_corridor",
+      "name": "North Corridor Entrance",
+      "category": "Entrance",
+      "source": "user",
+      "color": "#10B981",
+      "polygon": [
+        [
+          50.0,
+          50.0
+        ],
+        [
+          400.0,
+          50.0
+        ],
+        [
+          400.0,
+          250.0
+        ],
+        [
+          50.0,
+          250.0
+        ]
+      ],
+      "area_px": 70000.0,
+      "visits": 3,
+      "unique_visitors": 3,
+      "entry_count": 3,
+      "exit_count": 3,
+      "avg_dwell_sec": 1.0,
+      "median_dwell_sec": 1.0,
+      "max_dwell_sec": 1.5,
+      "min_meaningful_dwell_sec": 0.5,
+      "peak_occupancy": 1,
+      "avg_occupancy": 0.05,
+      "traffic_share_pct": 50.0,
+      "relative_activity_pct": 103.6,
+      "traffic_density": 4.29
+    },
+    {
+      "id": "zone_south_display",
+      "name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "source": "user",
+      "color": "#3B82F6",
+      "polygon": [
+        [
+          420.0,
+          150.0
+        ],
+        [
+          720.0,
+          150.0
+        ],
+        [
+          720.0,
+          400.0
+        ],
+        [
+          420.0,
+          400.0
+        ]
+      ],
+      "area_px": 75000.0,
+      "visits": 3,
+      "unique_visitors": 3,
+      "entry_count": 3,
+      "exit_count": 3,
+      "avg_dwell_sec": 3.05,
+      "median_dwell_sec": 2.83,
+      "max_dwell_sec": 3.83,
+      "min_meaningful_dwell_sec": 0.5,
+      "peak_occupancy": 2,
+      "avg_occupancy": 0.19,
+      "traffic_share_pct": 50.0,
+      "relative_activity_pct": 96.7,
+      "traffic_density": 4.0
+    }
+  ],
+  "zone_statistics": [
+    {
+      "id": "zone_north_corridor",
+      "name": "North Corridor Entrance",
+      "category": "Entrance",
+      "source": "user",
+      "color": "#10B981",
+      "polygon": [
+        [
+          50.0,
+          50.0
+        ],
+        [
+          400.0,
+          50.0
+        ],
+        [
+          400.0,
+          250.0
+        ],
+        [
+          50.0,
+          250.0
+        ]
+      ],
+      "area_px": 70000.0,
+      "visits": 3,
+      "unique_visitors": 3,
+      "entry_count": 3,
+      "exit_count": 3,
+      "avg_dwell_sec": 1.0,
+      "median_dwell_sec": 1.0,
+      "max_dwell_sec": 1.5,
+      "min_meaningful_dwell_sec": 0.5,
+      "peak_occupancy": 1,
+      "avg_occupancy": 0.05,
+      "traffic_share_pct": 50.0,
+      "relative_activity_pct": 103.6,
+      "traffic_density": 4.29
+    },
+    {
+      "id": "zone_south_display",
+      "name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "source": "user",
+      "color": "#3B82F6",
+      "polygon": [
+        [
+          420.0,
+          150.0
+        ],
+        [
+          720.0,
+          150.0
+        ],
+        [
+          720.0,
+          400.0
+        ],
+        [
+          420.0,
+          400.0
+        ]
+      ],
+      "area_px": 75000.0,
+      "visits": 3,
+      "unique_visitors": 3,
+      "entry_count": 3,
+      "exit_count": 3,
+      "avg_dwell_sec": 3.05,
+      "median_dwell_sec": 2.83,
+      "max_dwell_sec": 3.83,
+      "min_meaningful_dwell_sec": 0.5,
+      "peak_occupancy": 2,
+      "avg_occupancy": 0.19,
+      "traffic_share_pct": 50.0,
+      "relative_activity_pct": 96.7,
+      "traffic_density": 4.0
+    }
+  ],
+  "dwellStats": {
+    "total_visits": 6,
+    "avg_dwell": 2.03,
+    "median_dwell": 2.0,
+    "max_dwell": 3.83,
+    "min_dwell": 0.5
+  },
+  "trafficStats": {
+    "peak_occupancy": 3,
+    "avg_occupancy": 0.65,
+    "total_visits": 6
+  },
+  "occupancyStats": {
+    "peak_occupancy": 3,
+    "avg_occupancy": 0.65,
+    "timeline": [
+      {
+        "timestamp": 0.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 1.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 2.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 3.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 4.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 5.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 6.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 7.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 8.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 9.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 10.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 11.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 12.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 13.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 14.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 15.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 2,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 16.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 17.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 18.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 19.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 20.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 21.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 22.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 23.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 24.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 25.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 26.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 27.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 28.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 29.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 3,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 30.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 1,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 31.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 32.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1,
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 33.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 34.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 35.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 36.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 37.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 38.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 39.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 40.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 41.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 42.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 43.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 44.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 45.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 46.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 47.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 48.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 49.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      }
+    ]
+  },
+  "journeyStats": {
+    "patterns": [
+      {
+        "path": "South Merchandising Display",
+        "steps": [
+          "South Merchandising Display"
+        ],
+        "observed_customers": 3,
+        "percentage": 50.0,
+        "avg_duration_sec": 4.6
+      },
+      {
+        "path": "North Corridor Entrance",
+        "steps": [
+          "North Corridor Entrance"
+        ],
+        "observed_customers": 3,
+        "percentage": 50.0,
+        "avg_duration_sec": 4.4
+      }
+    ],
+    "flow_map": {
+      "nodes": [
+        {
+          "id": "zone_north_corridor",
+          "name": "North Corridor Entrance",
+          "category": "Entrance",
+          "color": "#10B981"
+        },
+        {
+          "id": "zone_south_display",
+          "name": "South Merchandising Display",
+          "category": "Promotional Area",
+          "color": "#3B82F6"
+        }
+      ],
+      "links": [],
+      "total_transitions": 1
+    }
+  },
+  "journey_patterns": [
+    {
+      "path": "South Merchandising Display",
+      "steps": [
+        "South Merchandising Display"
+      ],
+      "observed_customers": 3,
+      "percentage": 50.0,
+      "avg_duration_sec": 4.6
+    },
+    {
+      "path": "North Corridor Entrance",
+      "steps": [
+        "North Corridor Entrance"
+      ],
+      "observed_customers": 3,
+      "percentage": 50.0,
+      "avg_duration_sec": 4.4
+    }
+  ],
+  "flow_map": {
+    "nodes": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "color": "#10B981"
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "color": "#3B82F6"
+      }
+    ],
+    "links": [],
+    "total_transitions": 1
+  },
+  "heatmapData": {
+    "total_points": 193,
+    "max_density": 0.068,
+    "explanation": "Heatmap represents observed customer foot-point activity during the analyzed period.",
+    "heatmap_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap",
+    "base_frame_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/frame",
+    "overlay_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap-overlay",
+    "density_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap-density"
+  },
+  "heatmap": {
+    "total_points": 193,
+    "max_density": 0.068,
+    "explanation": "Heatmap represents observed customer foot-point activity during the analyzed period.",
+    "heatmap_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap",
+    "base_frame_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/frame",
+    "overlay_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap-overlay",
+    "density_image_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/heatmap-density"
+  },
+  "bottleneckResults": [
+    {
+      "zone_id": "zone_south_display",
+      "location": "South Merchandising Display",
+      "zone_name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "status": "Potential Bottleneck",
+      "is_bottleneck": true,
+      "score": 79.0,
+      "confidence": "Medium",
+      "evidence": [
+        "Elevated peak concurrency: 2 simultaneous customer tracks observed",
+        "Prolonged dwell duration: 3.05s exceeds store average (2.03s)",
+        "High spatial traffic density: 4.0 visitors per 100k sq px"
+      ],
+      "contributing_signals": {
+        "occupancy_signal": 100.0,
+        "dwell_signal": 100.0,
+        "density_signal": 93.2,
+        "speed_slowdown_signal": 0.0
+      },
+      "metrics": {
+        "peak_occupancy": 2,
+        "avg_dwell_sec": 3.05,
+        "avg_speed_px_sec": 107.7,
+        "traffic_density": 4.0,
+        "observed_visits": 3
+      }
+    },
+    {
+      "zone_id": "zone_north_corridor",
+      "location": "North Corridor Entrance",
+      "zone_name": "North Corridor Entrance",
+      "category": "Entrance",
+      "status": "Normal Flow",
+      "is_bottleneck": false,
+      "score": 44.2,
+      "confidence": "Medium",
+      "evidence": [
+        "Movement slowdown: 89.9 px/s (9% slower than store baseline 99.0 px/s)",
+        "High spatial traffic density: 4.29 visitors per 100k sq px"
+      ],
+      "contributing_signals": {
+        "occupancy_signal": 50.0,
+        "dwell_signal": 32.8,
+        "density_signal": 100.0,
+        "speed_slowdown_signal": 9.2
+      },
+      "metrics": {
+        "peak_occupancy": 1,
+        "avg_dwell_sec": 1.0,
+        "avg_speed_px_sec": 89.9,
+        "traffic_density": 4.29,
+        "observed_visits": 3
+      }
+    }
+  ],
+  "bottlenecks": [
+    {
+      "zone_id": "zone_south_display",
+      "location": "South Merchandising Display",
+      "zone_name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "status": "Potential Bottleneck",
+      "is_bottleneck": true,
+      "score": 79.0,
+      "confidence": "Medium",
+      "evidence": [
+        "Elevated peak concurrency: 2 simultaneous customer tracks observed",
+        "Prolonged dwell duration: 3.05s exceeds store average (2.03s)",
+        "High spatial traffic density: 4.0 visitors per 100k sq px"
+      ],
+      "contributing_signals": {
+        "occupancy_signal": 100.0,
+        "dwell_signal": 100.0,
+        "density_signal": 93.2,
+        "speed_slowdown_signal": 0.0
+      },
+      "metrics": {
+        "peak_occupancy": 2,
+        "avg_dwell_sec": 3.05,
+        "avg_speed_px_sec": 107.7,
+        "traffic_density": 4.0,
+        "observed_visits": 3
+      }
+    },
+    {
+      "zone_id": "zone_north_corridor",
+      "location": "North Corridor Entrance",
+      "zone_name": "North Corridor Entrance",
+      "category": "Entrance",
+      "status": "Normal Flow",
+      "is_bottleneck": false,
+      "score": 44.2,
+      "confidence": "Medium",
+      "evidence": [
+        "Movement slowdown: 89.9 px/s (9% slower than store baseline 99.0 px/s)",
+        "High spatial traffic density: 4.29 visitors per 100k sq px"
+      ],
+      "contributing_signals": {
+        "occupancy_signal": 50.0,
+        "dwell_signal": 32.8,
+        "density_signal": 100.0,
+        "speed_slowdown_signal": 9.2
+      },
+      "metrics": {
+        "peak_occupancy": 1,
+        "avg_dwell_sec": 1.0,
+        "avg_speed_px_sec": 89.9,
+        "traffic_density": 4.29,
+        "observed_visits": 3
+      }
+    }
+  ],
+  "deadZoneResults": [
+    {
+      "zone_id": "zone_north_corridor",
+      "location": "North Corridor Entrance",
+      "zone_name": "North Corridor Entrance",
+      "category": "Entrance",
+      "status": "Active Region",
+      "is_dead_zone": false,
+      "score": 27.1,
+      "activity_score": 72.9,
+      "relative_activity_pct": 103.6,
+      "confidence": "High",
+      "evidence": [
+        "Captures only 50.0% of total observed store visits (3 visits)",
+        "Transit-only dwell (1.0s) indicates swift bypass without product interaction",
+        "Negligible concurrency: maximum 1 customer present simultaneously"
+      ],
+      "metrics": {
+        "visits": 3,
+        "unique_visitors": 3,
+        "avg_dwell_sec": 1.0,
+        "traffic_share_pct": 50.0,
+        "dwell_share_pct": 24.7,
+        "relative_activity_pct": 103.6
+      }
+    },
+    {
+      "zone_id": "zone_south_display",
+      "location": "South Merchandising Display",
+      "zone_name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "status": "Active Region",
+      "is_dead_zone": false,
+      "score": 1.5,
+      "activity_score": 98.5,
+      "relative_activity_pct": 96.7,
+      "confidence": "High",
+      "evidence": [
+        "Captures only 50.0% of total observed store visits (3 visits)"
+      ],
+      "metrics": {
+        "visits": 3,
+        "unique_visitors": 3,
+        "avg_dwell_sec": 3.05,
+        "traffic_share_pct": 50.0,
+        "dwell_share_pct": 75.3,
+        "relative_activity_pct": 96.7
+      }
+    }
+  ],
+  "dead_zones": [
+    {
+      "zone_id": "zone_north_corridor",
+      "location": "North Corridor Entrance",
+      "zone_name": "North Corridor Entrance",
+      "category": "Entrance",
+      "status": "Active Region",
+      "is_dead_zone": false,
+      "score": 27.1,
+      "activity_score": 72.9,
+      "relative_activity_pct": 103.6,
+      "confidence": "High",
+      "evidence": [
+        "Captures only 50.0% of total observed store visits (3 visits)",
+        "Transit-only dwell (1.0s) indicates swift bypass without product interaction",
+        "Negligible concurrency: maximum 1 customer present simultaneously"
+      ],
+      "metrics": {
+        "visits": 3,
+        "unique_visitors": 3,
+        "avg_dwell_sec": 1.0,
+        "traffic_share_pct": 50.0,
+        "dwell_share_pct": 24.7,
+        "relative_activity_pct": 103.6
+      }
+    },
+    {
+      "zone_id": "zone_south_display",
+      "location": "South Merchandising Display",
+      "zone_name": "South Merchandising Display",
+      "category": "Promotional Area",
+      "status": "Active Region",
+      "is_dead_zone": false,
+      "score": 1.5,
+      "activity_score": 98.5,
+      "relative_activity_pct": 96.7,
+      "confidence": "High",
+      "evidence": [
+        "Captures only 50.0% of total observed store visits (3 visits)"
+      ],
+      "metrics": {
+        "visits": 3,
+        "unique_visitors": 3,
+        "avg_dwell_sec": 3.05,
+        "traffic_share_pct": 50.0,
+        "dwell_share_pct": 75.3,
+        "relative_activity_pct": 96.7
+      }
+    }
+  ],
+  "highActivityResults": [
+    {
+      "zone_name": "South Merchandising Display",
+      "visits": 3,
+      "unique_visitors": 3,
+      "avg_dwell_sec": 3.05,
+      "peak_occupancy": 2,
+      "traffic_share_pct": 50.0,
+      "traffic_density": 4.0,
+      "status": "High Activity Corridor"
+    },
+    {
+      "zone_name": "North Corridor Entrance",
+      "visits": 3,
+      "unique_visitors": 3,
+      "avg_dwell_sec": 1.0,
+      "peak_occupancy": 1,
+      "traffic_share_pct": 50.0,
+      "traffic_density": 4.29,
+      "status": "High Activity Corridor"
+    }
+  ],
+  "high_activity_areas": [
+    {
+      "zone_name": "South Merchandising Display",
+      "visits": 3,
+      "unique_visitors": 3,
+      "avg_dwell_sec": 3.05,
+      "peak_occupancy": 2,
+      "traffic_share_pct": 50.0,
+      "traffic_density": 4.0,
+      "status": "High Activity Corridor"
+    },
+    {
+      "zone_name": "North Corridor Entrance",
+      "visits": 3,
+      "unique_visitors": 3,
+      "avg_dwell_sec": 1.0,
+      "peak_occupancy": 1,
+      "traffic_share_pct": 50.0,
+      "traffic_density": 4.29,
+      "status": "High Activity Corridor"
+    }
+  ],
+  "zoneRankings": {
+    "most_visited": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      }
+    ],
+    "highest_dwell": [
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      },
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      }
+    ],
+    "highest_activity": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      }
+    ],
+    "peak_occupancy": [
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      },
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      }
+    ]
+  },
+  "zone_rankings": {
+    "most_visited": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      }
+    ],
+    "highest_dwell": [
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      },
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      }
+    ],
+    "highest_activity": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      }
+    ],
+    "peak_occupancy": [
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area_px": 75000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 3.05,
+        "median_dwell_sec": 2.83,
+        "max_dwell_sec": 3.83,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 2,
+        "avg_occupancy": 0.19,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 96.7,
+        "traffic_density": 4.0
+      },
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area_px": 70000.0,
+        "visits": 3,
+        "unique_visitors": 3,
+        "entry_count": 3,
+        "exit_count": 3,
+        "avg_dwell_sec": 1.0,
+        "median_dwell_sec": 1.0,
+        "max_dwell_sec": 1.5,
+        "min_meaningful_dwell_sec": 0.5,
+        "peak_occupancy": 1,
+        "avg_occupancy": 0.05,
+        "traffic_share_pct": 50.0,
+        "relative_activity_pct": 103.6,
+        "traffic_density": 4.29
+      }
+    ]
+  },
+  "analyticsConfidence": {
+    "tracking_confidence": "High",
+    "zone_confidence": "High",
+    "bottleneck_confidence": "Medium",
+    "dead_zone_confidence": "High",
+    "sample_duration_seconds": 49.67,
+    "total_verified_visits": 6
+  },
+  "analytics_confidence": {
+    "tracking_confidence": "High",
+    "zone_confidence": "High",
+    "bottleneck_confidence": "Medium",
+    "dead_zone_confidence": "High",
+    "sample_duration_seconds": 49.67,
+    "total_verified_visits": 6
+  },
+  "occupancy_timeline": [
+    {
+      "timestamp": 0.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 1.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 2.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 1,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 3.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 4.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_south_display": 1
+      }
+    },
+    {
+      "timestamp": 5.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_south_display": 1
+      }
+    },
+    {
+      "timestamp": 6.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_south_display": 1
+      }
+    },
+    {
+      "timestamp": 7.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 8.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 9.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 10.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 11.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 12.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 13.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 14.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 15.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 2,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 16.0,
+      "store_occupancy": 2,
+      "active_tracks": 2,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 17.0,
+      "store_occupancy": 2,
+      "active_tracks": 2,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 18.0,
+      "store_occupancy": 2,
+      "active_tracks": 2,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 19.0,
+      "store_occupancy": 2,
+      "active_tracks": 2,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_north_corridor": 1
+      }
+    },
+    {
+      "timestamp": 20.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_north_corridor": 1
+      }
+    },
+    {
+      "timestamp": 21.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 22.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 23.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 24.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 25.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 26.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 27.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 28.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 1,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 29.0,
+      "store_occupancy": 2,
+      "active_tracks": 2,
+      "new_entries": 3,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 30.0,
+      "store_occupancy": 3,
+      "active_tracks": 3,
+      "new_entries": 1,
+      "zone_occupancy": {
+        "zone_south_display": 1
+      }
+    },
+    {
+      "timestamp": 31.0,
+      "store_occupancy": 3,
+      "active_tracks": 3,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_south_display": 2
+      }
+    },
+    {
+      "timestamp": 32.0,
+      "store_occupancy": 3,
+      "active_tracks": 3,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_north_corridor": 1,
+        "zone_south_display": 2
+      }
+    },
+    {
+      "timestamp": 33.0,
+      "store_occupancy": 3,
+      "active_tracks": 3,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_south_display": 2
+      }
+    },
+    {
+      "timestamp": 34.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 35.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 36.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 37.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 38.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 39.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 40.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 41.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 42.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 43.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 44.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 1,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 45.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 46.0,
+      "store_occupancy": 1,
+      "active_tracks": 1,
+      "new_entries": 0,
+      "zone_occupancy": {
+        "zone_north_corridor": 1
+      }
+    },
+    {
+      "timestamp": 47.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 48.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    },
+    {
+      "timestamp": 49.0,
+      "store_occupancy": 0,
+      "active_tracks": 0,
+      "new_entries": 0,
+      "zone_occupancy": {}
+    }
+  ],
+  "timelines": {
+    "interval_1s": [
+      {
+        "timestamp": 0.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 1.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 2.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 3.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 4.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 5.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 6.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 7.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 8.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 9.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 10.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 11.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 12.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 13.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 14.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 15.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 2,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 16.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 17.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 18.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 19.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 20.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 21.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 22.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 23.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 24.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 25.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 26.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 27.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 28.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 29.0,
+        "store_occupancy": 2,
+        "active_tracks": 2,
+        "new_entries": 3,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 30.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 1,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 31.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 32.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1,
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 33.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 2
+        }
+      },
+      {
+        "timestamp": 34.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 35.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 36.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 37.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 38.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 39.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 40.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 41.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 42.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 43.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 44.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 45.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 46.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 47.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 48.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 49.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      }
+    ],
+    "interval_5s": [
+      {
+        "timestamp": 0.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 5.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 10.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 15.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 2,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 20.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 0,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 25.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 30.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 3,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 35.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 40.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 45.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      }
+    ],
+    "interval_10s": [
+      {
+        "timestamp": 0.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 10.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 0,
+        "zone_occupancy": {}
+      },
+      {
+        "timestamp": 20.0,
+        "store_occupancy": 1,
+        "active_tracks": 1,
+        "new_entries": 2,
+        "zone_occupancy": {
+          "zone_north_corridor": 1
+        }
+      },
+      {
+        "timestamp": 30.0,
+        "store_occupancy": 3,
+        "active_tracks": 3,
+        "new_entries": 3,
+        "zone_occupancy": {
+          "zone_south_display": 1
+        }
+      },
+      {
+        "timestamp": 40.0,
+        "store_occupancy": 0,
+        "active_tracks": 0,
+        "new_entries": 1,
+        "zone_occupancy": {}
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "anonymous_id": "Customer #2",
+      "track_id": 2,
+      "first_seen": 1.83,
+      "last_seen": 6.17,
+      "duration": 4.34,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "South Merchandising Display"
+      ],
+      "zone_ids_sequence": [
+        "zone_south_display"
+      ],
+      "zone_dwells": {
+        "South Merchandising Display": 2.67
+      },
+      "avg_speed_px_sec": 120.3,
+      "points_count": 27,
+      "trajectory": [
+        {
+          "x": 282.3,
+          "y": 429.5,
+          "t": 1.83,
+          "z": null
+        },
+        {
+          "x": 307.9,
+          "y": 428.3,
+          "t": 2.17,
+          "z": null
+        },
+        {
+          "x": 339.1,
+          "y": 402.5,
+          "t": 2.5,
+          "z": null
+        },
+        {
+          "x": 363.1,
+          "y": 365.8,
+          "t": 2.83,
+          "z": null
+        },
+        {
+          "x": 388.0,
+          "y": 323.4,
+          "t": 3.17,
+          "z": null
+        },
+        {
+          "x": 428.8,
+          "y": 288.2,
+          "t": 3.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 466.3,
+          "y": 278.9,
+          "t": 3.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 512.9,
+          "y": 258.6,
+          "t": 4.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 554.9,
+          "y": 249.8,
+          "t": 4.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 593.5,
+          "y": 248.9,
+          "t": 4.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 636.9,
+          "y": 245.5,
+          "t": 5.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 664.9,
+          "y": 242.3,
+          "t": 5.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 698.3,
+          "y": 240.8,
+          "t": 5.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 727.8,
+          "y": 235.1,
+          "t": 6.17,
+          "z": null
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #4",
+      "track_id": 4,
+      "first_seen": 15.17,
+      "last_seen": 20.67,
+      "duration": 5.5,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "North Corridor Entrance"
+      ],
+      "zone_ids_sequence": [
+        "zone_north_corridor"
+      ],
+      "zone_dwells": {
+        "North Corridor Entrance": 1.83
+      },
+      "avg_speed_px_sec": 94.8,
+      "points_count": 33,
+      "trajectory": [
+        {
+          "x": 461.6,
+          "y": 431.5,
+          "t": 15.17,
+          "z": null
+        },
+        {
+          "x": 425.4,
+          "y": 430.3,
+          "t": 15.5,
+          "z": null
+        },
+        {
+          "x": 396.8,
+          "y": 429.2,
+          "t": 15.83,
+          "z": null
+        },
+        {
+          "x": 378.2,
+          "y": 426.4,
+          "t": 16.17,
+          "z": null
+        },
+        {
+          "x": 365.2,
+          "y": 387.1,
+          "t": 16.5,
+          "z": null
+        },
+        {
+          "x": 344.2,
+          "y": 366.1,
+          "t": 16.83,
+          "z": null
+        },
+        {
+          "x": 314.4,
+          "y": 322.0,
+          "t": 17.17,
+          "z": null
+        },
+        {
+          "x": 294.2,
+          "y": 304.8,
+          "t": 17.5,
+          "z": null
+        },
+        {
+          "x": 264.9,
+          "y": 269.8,
+          "t": 17.83,
+          "z": null
+        },
+        {
+          "x": 242.0,
+          "y": 254.4,
+          "t": 18.17,
+          "z": null
+        },
+        {
+          "x": 200.4,
+          "y": 249.1,
+          "t": 18.5,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 165.0,
+          "y": 241.9,
+          "t": 18.83,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 133.7,
+          "y": 242.3,
+          "t": 19.17,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 104.2,
+          "y": 240.7,
+          "t": 19.5,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 75.2,
+          "y": 243.3,
+          "t": 19.83,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 41.3,
+          "y": 241.5,
+          "t": 20.33,
+          "z": null
+        },
+        {
+          "x": 36.5,
+          "y": 237.4,
+          "t": 20.67,
+          "z": null
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #5",
+      "track_id": 5,
+      "first_seen": 15.33,
+      "last_seen": 19.83,
+      "duration": 4.5,
+      "is_valid_visitor": true,
+      "journey_sequence": [],
+      "zone_ids_sequence": [],
+      "zone_dwells": {},
+      "avg_speed_px_sec": 67.7,
+      "points_count": 28,
+      "trajectory": [
+        {
+          "x": 235.5,
+          "y": 430.7,
+          "t": 15.33,
+          "z": null
+        },
+        {
+          "x": 237.0,
+          "y": 429.9,
+          "t": 15.67,
+          "z": null
+        },
+        {
+          "x": 239.7,
+          "y": 429.9,
+          "t": 16.0,
+          "z": null
+        },
+        {
+          "x": 246.5,
+          "y": 424.2,
+          "t": 16.33,
+          "z": null
+        },
+        {
+          "x": 245.1,
+          "y": 393.5,
+          "t": 16.67,
+          "z": null
+        },
+        {
+          "x": 235.1,
+          "y": 367.2,
+          "t": 17.0,
+          "z": null
+        },
+        {
+          "x": 213.1,
+          "y": 335.9,
+          "t": 17.33,
+          "z": null
+        },
+        {
+          "x": 197.3,
+          "y": 323.4,
+          "t": 17.67,
+          "z": null
+        },
+        {
+          "x": 170.4,
+          "y": 300.0,
+          "t": 18.0,
+          "z": null
+        },
+        {
+          "x": 147.7,
+          "y": 287.0,
+          "t": 18.33,
+          "z": null
+        },
+        {
+          "x": 111.9,
+          "y": 283.2,
+          "t": 18.67,
+          "z": null
+        },
+        {
+          "x": 90.2,
+          "y": 283.8,
+          "t": 19.0,
+          "z": null
+        },
+        {
+          "x": 59.9,
+          "y": 280.2,
+          "t": 19.33,
+          "z": null
+        },
+        {
+          "x": 50.0,
+          "y": 276.1,
+          "t": 19.67,
+          "z": null
+        },
+        {
+          "x": 42.5,
+          "y": 277.0,
+          "t": 19.83,
+          "z": null
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #10",
+      "track_id": 10,
+      "first_seen": 28.5,
+      "last_seen": 33.33,
+      "duration": 4.83,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "North Corridor Entrance"
+      ],
+      "zone_ids_sequence": [
+        "zone_north_corridor"
+      ],
+      "zone_dwells": {
+        "North Corridor Entrance": 0.51
+      },
+      "avg_speed_px_sec": 84.1,
+      "points_count": 30,
+      "trajectory": [
+        {
+          "x": 213.1,
+          "y": 429.7,
+          "t": 28.5,
+          "z": null
+        },
+        {
+          "x": 244.3,
+          "y": 429.4,
+          "t": 28.83,
+          "z": null
+        },
+        {
+          "x": 260.8,
+          "y": 428.4,
+          "t": 29.17,
+          "z": null
+        },
+        {
+          "x": 263.9,
+          "y": 428.2,
+          "t": 29.5,
+          "z": null
+        },
+        {
+          "x": 257.4,
+          "y": 398.9,
+          "t": 29.83,
+          "z": null
+        },
+        {
+          "x": 260.6,
+          "y": 379.6,
+          "t": 30.17,
+          "z": null
+        },
+        {
+          "x": 257.9,
+          "y": 324.7,
+          "t": 30.5,
+          "z": null
+        },
+        {
+          "x": 243.1,
+          "y": 301.1,
+          "t": 30.83,
+          "z": null
+        },
+        {
+          "x": 208.9,
+          "y": 269.8,
+          "t": 31.17,
+          "z": null
+        },
+        {
+          "x": 180.9,
+          "y": 256.7,
+          "t": 31.5,
+          "z": null
+        },
+        {
+          "x": 147.1,
+          "y": 249.8,
+          "t": 31.83,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 113.0,
+          "y": 250.4,
+          "t": 32.17,
+          "z": null
+        },
+        {
+          "x": 69.5,
+          "y": 251.2,
+          "t": 32.5,
+          "z": null
+        },
+        {
+          "x": 54.0,
+          "y": 248.6,
+          "t": 32.83,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 42.6,
+          "y": 246.6,
+          "t": 33.17,
+          "z": null
+        },
+        {
+          "x": 40.9,
+          "y": 246.5,
+          "t": 33.33,
+          "z": null
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #11",
+      "track_id": 11,
+      "first_seen": 28.67,
+      "last_seen": 33.33,
+      "duration": 4.66,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "South Merchandising Display"
+      ],
+      "zone_ids_sequence": [
+        "zone_south_display"
+      ],
+      "zone_dwells": {
+        "South Merchandising Display": 2.83
+      },
+      "avg_speed_px_sec": 85.1,
+      "points_count": 29,
+      "trajectory": [
+        {
+          "x": 403.1,
+          "y": 431.6,
+          "t": 28.67,
+          "z": null
+        },
+        {
+          "x": 407.4,
+          "y": 430.9,
+          "t": 29.0,
+          "z": null
+        },
+        {
+          "x": 465.7,
+          "y": 428.8,
+          "t": 29.33,
+          "z": null
+        },
+        {
+          "x": 500.3,
+          "y": 428.7,
+          "t": 29.67,
+          "z": null
+        },
+        {
+          "x": 514.3,
+          "y": 429.0,
+          "t": 30.0,
+          "z": null
+        },
+        {
+          "x": 524.0,
+          "y": 422.9,
+          "t": 30.33,
+          "z": null
+        },
+        {
+          "x": 533.8,
+          "y": 377.9,
+          "t": 30.67,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 553.5,
+          "y": 344.2,
+          "t": 31.0,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 579.5,
+          "y": 327.9,
+          "t": 31.33,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 605.6,
+          "y": 311.8,
+          "t": 31.67,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 625.6,
+          "y": 294.7,
+          "t": 32.0,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 666.7,
+          "y": 294.1,
+          "t": 32.33,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 686.0,
+          "y": 294.0,
+          "t": 32.67,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 708.0,
+          "y": 281.6,
+          "t": 33.0,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 716.1,
+          "y": 276.5,
+          "t": 33.33,
+          "z": "zone_south_display"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #13",
+      "track_id": 13,
+      "first_seen": 29.5,
+      "last_seen": 34.33,
+      "duration": 4.83,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "South Merchandising Display"
+      ],
+      "zone_ids_sequence": [
+        "zone_south_display"
+      ],
+      "zone_dwells": {
+        "South Merchandising Display": 4.0
+      },
+      "avg_speed_px_sec": 108.4,
+      "points_count": 29,
+      "trajectory": [
+        {
+          "x": 412.9,
+          "y": 423.0,
+          "t": 29.5,
+          "z": null
+        },
+        {
+          "x": 414.6,
+          "y": 392.6,
+          "t": 29.83,
+          "z": null
+        },
+        {
+          "x": 429.1,
+          "y": 352.5,
+          "t": 30.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 445.8,
+          "y": 319.5,
+          "t": 30.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 463.4,
+          "y": 242.7,
+          "t": 30.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 487.6,
+          "y": 224.7,
+          "t": 31.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 515.7,
+          "y": 243.0,
+          "t": 31.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 543.0,
+          "y": 235.4,
+          "t": 31.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 568.0,
+          "y": 232.8,
+          "t": 32.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 603.9,
+          "y": 233.6,
+          "t": 32.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 630.1,
+          "y": 232.5,
+          "t": 32.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 658.0,
+          "y": 233.1,
+          "t": 33.17,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 686.4,
+          "y": 234.5,
+          "t": 33.5,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 706.4,
+          "y": 233.3,
+          "t": 33.83,
+          "z": "zone_south_display"
+        },
+        {
+          "x": 734.2,
+          "y": 228.9,
+          "t": 34.33,
+          "z": null
+        }
+      ]
+    },
+    {
+      "anonymous_id": "Customer #14",
+      "track_id": 14,
+      "first_seen": 43.67,
+      "last_seen": 46.5,
+      "duration": 2.83,
+      "is_valid_visitor": true,
+      "journey_sequence": [
+        "North Corridor Entrance"
+      ],
+      "zone_ids_sequence": [
+        "zone_north_corridor"
+      ],
+      "zone_dwells": {
+        "North Corridor Entrance": 0.5
+      },
+      "avg_speed_px_sec": 160.2,
+      "points_count": 17,
+      "trajectory": [
+        {
+          "x": 405.4,
+          "y": 429.5,
+          "t": 43.67,
+          "z": null
+        },
+        {
+          "x": 377.1,
+          "y": 429.0,
+          "t": 44.0,
+          "z": null
+        },
+        {
+          "x": 339.5,
+          "y": 415.8,
+          "t": 44.33,
+          "z": null
+        },
+        {
+          "x": 310.2,
+          "y": 356.7,
+          "t": 44.67,
+          "z": null
+        },
+        {
+          "x": 278.8,
+          "y": 302.9,
+          "t": 45.0,
+          "z": null
+        },
+        {
+          "x": 219.5,
+          "y": 271.9,
+          "t": 45.33,
+          "z": null
+        },
+        {
+          "x": 158.2,
+          "y": 255.7,
+          "t": 45.67,
+          "z": null
+        },
+        {
+          "x": 91.6,
+          "y": 247.8,
+          "t": 46.0,
+          "z": "zone_north_corridor"
+        },
+        {
+          "x": 51.2,
+          "y": 248.8,
+          "t": 46.5,
+          "z": "zone_north_corridor"
+        }
+      ]
+    }
+  ],
+  "zone_system": {
+    "source": "user",
+    "notice": "User-defined custom zones active.",
+    "zones": [
+      {
+        "id": "zone_north_corridor",
+        "name": "North Corridor Entrance",
+        "category": "Entrance",
+        "source": "user",
+        "color": "#10B981",
+        "polygon": [
+          [
+            50.0,
+            50.0
+          ],
+          [
+            400.0,
+            50.0
+          ],
+          [
+            400.0,
+            250.0
+          ],
+          [
+            50.0,
+            250.0
+          ]
+        ],
+        "area": 70000.0
+      },
+      {
+        "id": "zone_south_display",
+        "name": "South Merchandising Display",
+        "category": "Promotional Area",
+        "source": "user",
+        "color": "#3B82F6",
+        "polygon": [
+          [
+            420.0,
+            150.0
+          ],
+          [
+            720.0,
+            150.0
+          ],
+          [
+            720.0,
+            400.0
+          ],
+          [
+            420.0,
+            400.0
+          ]
+        ],
+        "area": 75000.0
+      }
+    ]
+  },
+  "limitations": [
+    "Uncalibrated 2D monocular camera view; speeds measured in image-space pixels/second",
+    "Occlusion by tall shelving or group clusters can cause brief track fragmentation",
+    "Customer counts represent unique anonymous tracks filtered above duration threshold"
+  ],
+  "annotated_video_url": "/api/analysis/3c3035e7-a914-4999-9fda-6031e0629eea/video"
+}

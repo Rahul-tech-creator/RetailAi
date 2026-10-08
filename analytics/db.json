@@ -1,0 +1,999 @@
+{
+  "videos": {
+    "2e3d0995-d373-4c9e-a83c-db3af3fad1bd": {
+      "id": "2e3d0995-d373-4c9e-a83c-db3af3fad1bd",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/2e3d0995-d373-4c9e-a83c-db3af3fad1bd/frame",
+      "uploadedAt": "2026-10-06T13:41:52.572Z"
+    },
+    "5bc29408-03e4-4784-b874-87db040079dd": {
+      "id": "5bc29408-03e4-4784-b874-87db040079dd",
+      "filename": "video_1791294471329_4aa595a7.mp4",
+      "originalName": "HD CCTV Camera video 3MP 4MP iProx CCTV HDCCTVCameras.net retail store - HDCCTV Cameras (720p, h264).mp4",
+      "sizeBytes": 30827966,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\video_1791294471329_4aa595a7.mp4",
+      "metadata": {
+        "width": 1270,
+        "height": 720,
+        "resolution": "1270x720",
+        "fps": 13.09,
+        "frame_count": 1454,
+        "duration_seconds": 111.05
+      },
+      "frameUrl": "/api/videos/5bc29408-03e4-4784-b874-87db040079dd/frame",
+      "uploadedAt": "2026-10-06T13:47:51.828Z"
+    },
+    "37754785-6c86-42a0-8568-8821052d6d4a": {
+      "id": "37754785-6c86-42a0-8568-8821052d6d4a",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/37754785-6c86-42a0-8568-8821052d6d4a/frame",
+      "uploadedAt": "2026-10-06T15:01:24.041Z"
+    },
+    "2a031d22-cbfe-44d4-95aa-3ea2f886d3bd": {
+      "id": "2a031d22-cbfe-44d4-95aa-3ea2f886d3bd",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/2a031d22-cbfe-44d4-95aa-3ea2f886d3bd/frame",
+      "uploadedAt": "2026-10-06T15:02:15.018Z"
+    },
+    "616b2980-736a-4fc5-83aa-64b07c4d7e7e": {
+      "id": "616b2980-736a-4fc5-83aa-64b07c4d7e7e",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/616b2980-736a-4fc5-83aa-64b07c4d7e7e/frame",
+      "uploadedAt": "2026-10-06T16:02:22.126Z"
+    },
+    "905aad3a-1b23-4f9c-8b68-e196daa3c4e6": {
+      "id": "905aad3a-1b23-4f9c-8b68-e196daa3c4e6",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/905aad3a-1b23-4f9c-8b68-e196daa3c4e6/frame",
+      "uploadedAt": "2026-10-06T16:30:24.795Z"
+    },
+    "6a29e105-b395-4eb0-b5ab-c5d94cb843dc": {
+      "id": "6a29e105-b395-4eb0-b5ab-c5d94cb843dc",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/6a29e105-b395-4eb0-b5ab-c5d94cb843dc/frame",
+      "uploadedAt": "2026-10-06T16:32:37.880Z"
+    },
+    "18174f9b-d098-492c-9ec7-57555a743afc": {
+      "id": "18174f9b-d098-492c-9ec7-57555a743afc",
+      "filename": "video_1791304479038_3ffd3f00.mp4",
+      "originalName": "HD CCTV Camera video 3MP 4MP iProx CCTV HDCCTVCameras.net retail store - HDCCTV Cameras (720p, h264).mp4",
+      "sizeBytes": 30827966,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\video_1791304479038_3ffd3f00.mp4",
+      "metadata": {
+        "width": 1270,
+        "height": 720,
+        "resolution": "1270x720",
+        "fps": 13.09,
+        "frame_count": 1454,
+        "duration_seconds": 111.05
+      },
+      "frameUrl": "/api/videos/18174f9b-d098-492c-9ec7-57555a743afc/frame",
+      "uploadedAt": "2026-10-06T16:34:40.959Z"
+    },
+    "29535dcb-0d7f-45fd-bb99-4ca37b3f725f": {
+      "id": "29535dcb-0d7f-45fd-bb99-4ca37b3f725f",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "frame_count": 596,
+        "duration_seconds": 49.67
+      },
+      "frameUrl": "/api/videos/29535dcb-0d7f-45fd-bb99-4ca37b3f725f/frame",
+      "uploadedAt": "2026-10-06T16:35:44.214Z"
+    },
+    "4db7f9bd-db1e-43d1-b360-5f2ec910b634": {
+      "id": "4db7f9bd-db1e-43d1-b360-5f2ec910b634",
+      "filename": "sample_retail_cctv.mp4",
+      "originalName": "retail_corridor_cctv_sample.mp4",
+      "sizeBytes": 5482579,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\sample_retail_cctv.mp4",
+      "metadata": {
+        "width": 768,
+        "height": 432,
+        "resolution": "768x432",
+        "fps": 12,
+        "duration_seconds": 49.67,
+        "frame_count": 596
+      },
+      "frameUrl": "/api/videos/4db7f9bd-db1e-43d1-b360-5f2ec910b634/frame",
+      "uploadedAt": "2026-10-07T06:09:24.134Z"
+    },
+    "5f6b7ab9-b8c9-4f0c-baf2-ea01efe74c71": {
+      "id": "5f6b7ab9-b8c9-4f0c-baf2-ea01efe74c71",
+      "filename": "video_1791353940461_00bab785.mp4",
+      "originalName": "HD CCTV Camera video 3MP 4MP iProx CCTV HDCCTVCameras.net retail store - HDCCTV Cameras (720p, h264).mp4",
+      "sizeBytes": 30827966,
+      "filePath": "D:\\project\\RetailProduct\\uploads\\video_1791353940461_00bab785.mp4",
+      "metadata": {
+        "width": 1270,
+        "height": 720,
+        "resolution": "1270x720",
+        "fps": 13.09,
+        "frame_count": 1454,
+        "duration_seconds": 111.05
+      },
+      "frameUrl": "/api/videos/5f6b7ab9-b8c9-4f0c-baf2-ea01efe74c71/frame",
+      "uploadedAt": "2026-10-07T06:19:01.849Z"
+    }
+  },
+  "zones": {},
+  "jobs": {
+    "1fe3a046-da71-4331-ae2d-cc6c980f9440": {
+      "jobId": "1fe3a046-da71-4331-ae2d-cc6c980f9440",
+      "videoId": "2e3d0995-d373-4c9e-a83c-db3af3fad1bd",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T13:41:53.043Z",
+      "updatedAt": "2026-10-06T13:42:53.625Z",
+      "job_id": "1fe3a046-da71-4331-ae2d-cc6c980f9440",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "53c160cc-45ac-4dc4-b8cb-15507ba4387b": {
+      "jobId": "53c160cc-45ac-4dc4-b8cb-15507ba4387b",
+      "videoId": "2e3d0995-d373-4c9e-a83c-db3af3fad1bd",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T13:42:53.994Z",
+      "updatedAt": "2026-10-06T13:43:40.980Z",
+      "job_id": "53c160cc-45ac-4dc4-b8cb-15507ba4387b",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "71b4a965-1379-41f1-848d-b74c182f5366": {
+      "jobId": "71b4a965-1379-41f1-848d-b74c182f5366",
+      "videoId": "5bc29408-03e4-4784-b874-87db040079dd",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T13:48:36.892Z",
+      "updatedAt": "2026-10-06T13:50:03.938Z",
+      "job_id": "71b4a965-1379-41f1-848d-b74c182f5366",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "c4a575ed-40ae-4c3f-abb7-d2fbece2dbe8": {
+      "jobId": "c4a575ed-40ae-4c3f-abb7-d2fbece2dbe8",
+      "videoId": "37754785-6c86-42a0-8568-8821052d6d4a",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T15:01:34.397Z",
+      "updatedAt": "2026-10-06T15:02:01.432Z",
+      "job_id": "c4a575ed-40ae-4c3f-abb7-d2fbece2dbe8",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "9147a855-f167-45fc-8fa4-71c6cb35a1f2": {
+      "jobId": "9147a855-f167-45fc-8fa4-71c6cb35a1f2",
+      "videoId": "2a031d22-cbfe-44d4-95aa-3ea2f886d3bd",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T15:02:48.488Z",
+      "updatedAt": "2026-10-06T15:03:12.215Z",
+      "job_id": "9147a855-f167-45fc-8fa4-71c6cb35a1f2",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "d622a9e2-dbef-4ff8-a719-6c5aeac08078": {
+      "jobId": "d622a9e2-dbef-4ff8-a719-6c5aeac08078",
+      "videoId": "616b2980-736a-4fc5-83aa-64b07c4d7e7e",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:02:22.183Z",
+      "updatedAt": "2026-10-06T16:02:49.333Z",
+      "job_id": "d622a9e2-dbef-4ff8-a719-6c5aeac08078",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "3c3035e7-a914-4999-9fda-6031e0629eea": {
+      "jobId": "3c3035e7-a914-4999-9fda-6031e0629eea",
+      "videoId": "616b2980-736a-4fc5-83aa-64b07c4d7e7e",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:02:49.820Z",
+      "updatedAt": "2026-10-06T16:03:28.016Z",
+      "job_id": "3c3035e7-a914-4999-9fda-6031e0629eea",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "18c277bb-cc9b-42dc-bd22-e652143f5d0e": {
+      "jobId": "18c277bb-cc9b-42dc-bd22-e652143f5d0e",
+      "videoId": "905aad3a-1b23-4f9c-8b68-e196daa3c4e6",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:30:24.832Z",
+      "updatedAt": "2026-10-06T16:30:49.488Z",
+      "job_id": "18c277bb-cc9b-42dc-bd22-e652143f5d0e",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "9d578065-d463-4e14-bfe8-42016a6f2c53": {
+      "jobId": "9d578065-d463-4e14-bfe8-42016a6f2c53",
+      "videoId": "905aad3a-1b23-4f9c-8b68-e196daa3c4e6",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:30:49.827Z",
+      "updatedAt": "2026-10-06T16:31:14.444Z",
+      "job_id": "9d578065-d463-4e14-bfe8-42016a6f2c53",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "f2c5b1a5-2c62-4bab-8d03-687cab8094b6": {
+      "jobId": "f2c5b1a5-2c62-4bab-8d03-687cab8094b6",
+      "videoId": "6a29e105-b395-4eb0-b5ab-c5d94cb843dc",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:32:37.901Z",
+      "updatedAt": "2026-10-06T16:33:03.759Z",
+      "job_id": "f2c5b1a5-2c62-4bab-8d03-687cab8094b6",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "6558785e-0f8c-4e38-937d-3abda5b47663": {
+      "jobId": "6558785e-0f8c-4e38-937d-3abda5b47663",
+      "videoId": "6a29e105-b395-4eb0-b5ab-c5d94cb843dc",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:33:04.070Z",
+      "updatedAt": "2026-10-06T16:33:28.686Z",
+      "job_id": "6558785e-0f8c-4e38-937d-3abda5b47663",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "ccadde24-3e2f-4323-a835-b4f2fc145bf4": {
+      "jobId": "ccadde24-3e2f-4323-a835-b4f2fc145bf4",
+      "videoId": "18174f9b-d098-492c-9ec7-57555a743afc",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:34:51.626Z",
+      "updatedAt": "2026-10-06T16:37:51.695Z",
+      "job_id": "ccadde24-3e2f-4323-a835-b4f2fc145bf4",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "2e63e790-b5ff-435f-aff5-33d2c4382bde": {
+      "jobId": "2e63e790-b5ff-435f-aff5-33d2c4382bde",
+      "videoId": "29535dcb-0d7f-45fd-bb99-4ca37b3f725f",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-06T16:36:30.780Z",
+      "updatedAt": "2026-10-06T16:37:27.237Z",
+      "job_id": "2e63e790-b5ff-435f-aff5-33d2c4382bde",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    },
+    "05b0ce3a-fa90-4bd6-b71c-0fd17b440b0c": {
+      "jobId": "05b0ce3a-fa90-4bd6-b71c-0fd17b440b0c",
+      "videoId": "5f6b7ab9-b8c9-4f0c-baf2-ea01efe74c71",
+      "status": "COMPLETED",
+      "stage": "Analysis complete",
+      "percent": 100,
+      "createdAt": "2026-10-07T06:19:09.921Z",
+      "updatedAt": "2026-10-07T06:21:54.955Z",
+      "job_id": "05b0ce3a-fa90-4bd6-b71c-0fd17b440b0c",
+      "step": 9,
+      "total_steps": 9,
+      "error": null
+    }
+  },
+  "reports": {
+    "1fe3a046-da71-4331-ae2d-cc6c980f9440": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 3.42s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 2 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left). Most common movement pathway: Region 4 (Lower Right) → Region 3 (Lower Left).",
+      "dwell_time_findings": "Average dwell duration across all zones was 3.42s (median: 4.5s). Zones with above-average engagement include: Region 3 (Lower Left) (3.5s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left) (Score: 80.4/100, Evidence: Peak simultaneous occupancy reached 2 visitors). Region 4 (Lower Right) (Score: 78.5/100, Evidence: Peak simultaneous occupancy reached 2 visitors)",
+      "dead_zone_findings": "Identified 2 potential dead zone(s): Region 1 (Upper Left) (Score: 100/100, Evidence: Zero customer visits recorded during observed footage). Region 2 (Upper Right) (Score: 100/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 4 (Lower Right) → Region 3 (Lower Left)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left)",
+          "type": "Congestion Relief",
+          "evidence": "Peak simultaneous occupancy reached 2 visitors; Elevated dwell time of 3.5s exceeds store average (3.42s); Movement speed (96.8 px/s) slowed by 2% relative to store baseline (99.0 px/s); High traffic density index (6.03 visitors per 100k sq px)",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Only 0.0% customer penetration (0 unique visitors entered); Low peak occupancy: maximum 0 person at any moment",
+          "recommendation": "Introduce focal merchandising, promotional signage, or high-velocity destination products in Region 1 (Upper Left) to draw foot-traffic away from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left), Region 4 (Lower Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left), Region 2 (Upper Right)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry."
+    },
+    "53c160cc-45ac-4dc4-b8cb-15507ba4387b": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.23s with a peak simultaneous store occupancy of 3 people. 1 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around South Merchandising Display. Most common movement pathway: South Merchandising Display.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.23s (median: 2.5s). Zones with above-average engagement include: South Merchandising Display (3.05s).",
+      "bottleneck_findings": "Identified 1 potential bottleneck(s): South Merchandising Display (Score: 79/100, Evidence: Peak simultaneous occupancy reached 2 visitors)",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"South Merchandising Display\" observed in 3 customer track(s) (50% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "South Merchandising Display",
+          "type": "Congestion Relief",
+          "evidence": "Peak simultaneous occupancy reached 2 visitors; Elevated dwell time of 3.05s exceeds store average (2.23s); High traffic density index (4.0 visitors per 100k sq px)",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in South Merchandising Display to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in South Merchandising Display to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry."
+    },
+    "71b4a965-1379-41f1-848d-b74c182f5366": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 121 unique tracked customer visits across 111.05s of footage. Overall average dwell time was 7.14s with a peak simultaneous store occupancy of 13 people. 4 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 1 (Upper Left). Most common movement pathway: Region 1 (Upper Left).",
+      "dwell_time_findings": "Average dwell duration across all zones was 7.14s (median: 4.12s). Zones with above-average engagement include: Region 2 (Upper Right) (8.52s), Region 3 (Lower Left) (7.92s).",
+      "bottleneck_findings": "Identified 4 potential bottleneck(s): Region 1 (Upper Left) (Score: 78/100, Evidence: Peak simultaneous occupancy reached 8 visitors). Region 3 (Lower Left) (Score: 56.6/100, Evidence: Peak simultaneous occupancy reached 5 visitors). Region 4 (Lower Right) (Score: 55.1/100, Evidence: Peak simultaneous occupancy reached 6 visitors). Region 2 (Upper Right) (Score: 51.9/100, Evidence: Peak simultaneous occupancy reached 3 visitors)",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"Region 1 (Upper Left)\" observed in 58 customer track(s) (47.9% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Congestion Relief",
+          "evidence": "Peak simultaneous occupancy reached 8 visitors; Movement speed (21.8 px/s) slowed by 26% relative to store baseline (29.5 px/s); High traffic density index (62.04 visitors per 100k sq px)",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 1 (Upper Left) to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 1 (Upper Left), Region 3 (Lower Left), Region 4 (Lower Right), Region 2 (Upper Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry."
+    },
+    "c4a575ed-40ae-4c3f-abb7-d2fbece2dbe8": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 3.42s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 2 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left). Most common movement pathway: Region 4 (Lower Right) → Region 3 (Lower Left).",
+      "dwell_time_findings": "Average dwell duration across all zones was 3.42s (median: 4.5s). Zones with above-average engagement include: Region 3 (Lower Left) (3.5s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left) (Score: 80.4/100, Evidence: Peak simultaneous occupancy reached 2 visitors). Region 4 (Lower Right) (Score: 78.5/100, Evidence: Peak simultaneous occupancy reached 2 visitors)",
+      "dead_zone_findings": "Identified 2 potential dead zone(s): Region 1 (Upper Left) (Score: 100/100, Evidence: Zero customer visits recorded during observed footage). Region 2 (Upper Right) (Score: 100/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 4 (Lower Right) → Region 3 (Lower Left)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left)",
+          "type": "Congestion Relief",
+          "evidence": "Peak simultaneous occupancy reached 2 visitors; Elevated dwell time of 3.5s exceeds store average (3.42s); Movement speed (96.8 px/s) slowed by 2% relative to store baseline (99.0 px/s); High traffic density index (6.03 visitors per 100k sq px)",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Only 0.0% customer penetration (0 unique visitors entered); Low peak occupancy: maximum 0 person at any moment",
+          "recommendation": "Introduce focal merchandising, promotional signage, or high-velocity destination products in Region 1 (Upper Left) to draw foot-traffic away from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left), Region 4 (Lower Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left), Region 2 (Upper Right)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry."
+    },
+    "9147a855-f167-45fc-8fa4-71c6cb35a1f2": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 0.83s with a peak simultaneous store occupancy of 3 people. 1 potential bottleneck area(s) and 3 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Zone 1. Most common movement pathway: Zone 1.",
+      "dwell_time_findings": "Average dwell duration across all zones was 0.83s (median: 0.67s). Zones with above-average engagement include: Zone 6 (1.33s).",
+      "bottleneck_findings": "Identified 1 potential bottleneck(s): Zone 1 (Score: 60.2/100, Evidence: High traffic density index (18.34 visitors per 100k sq px))",
+      "dead_zone_findings": "Identified 3 potential dead zone(s): Zone 2 (Score: 100/100, Evidence: Zero customer visits recorded during observed footage). Zone 3 (Score: 100/100, Evidence: Zero customer visits recorded during observed footage). Zone 4 (Score: 90/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Zone 1\" observed in 3 customer track(s) (60% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Zone 1",
+          "type": "Congestion Relief",
+          "evidence": "High traffic density index (18.34 visitors per 100k sq px)",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Zone 1 to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Zone 2",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Only 0.0% customer penetration (0 unique visitors entered); Low peak occupancy: maximum 0 person at any moment",
+          "recommendation": "Introduce focal merchandising, promotional signage, or high-velocity destination products in Zone 2 to draw foot-traffic away from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Zone 1 to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Zone 2, Zone 3, Zone 4."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry."
+    },
+    "d622a9e2-dbef-4ff8-a719-6c5aeac08078": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 3.42s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 2 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left). Most common movement pathway: Region 4 (Lower Right) → Region 3 (Lower Left). Observed 2 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 3.42s (median: 4.5s). Zones with above-average engagement include: Region 3 (Lower Left) (3.5s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left) (Score: 80.4/100, Evidence: Elevated peak concurrency: 2 simultaneous customer tracks observed). Region 4 (Lower Right) (Score: 78.5/100, Evidence: Elevated peak concurrency: 2 simultaneous customer tracks observed)",
+      "dead_zone_findings": "Identified 2 potential dead zone(s): Region 1 (Upper Left) (Score: 100/100, Deficiency: 100/100, Evidence: Zero customer visits recorded during observed footage). Region 2 (Upper Right) (Score: 100/100, Deficiency: 100/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 4 (Lower Right) → Region 3 (Lower Left)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left)",
+          "type": "Congestion Alleviation",
+          "evidence": "Elevated peak concurrency: 2 simultaneous customer tracks observed; Prolonged dwell duration: 3.5s exceeds store average (3.42s); Movement slowdown: 96.8 px/s (2% slower than store baseline 99.0 px/s); High spatial traffic density: 6.03 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Zero customer penetration observed; Negligible concurrency: maximum 0 customer present simultaneously",
+          "recommendation": "Introduce focal visual merchandising, promotional signage, or destination product categories in Region 1 (Upper Left) to redistribute foot-traffic from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left), Region 4 (Lower Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left), Region 2 (Upper Right)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Adding eye-level feature signage at the entrance to Region 1 (Upper Left) will increase customer traversal share by at least 15%.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "d622a9e2-dbef-4ff8-a719-6c5aeac08078",
+        "generatedTimestamp": "2026-10-06T16:02:49.597Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "3c3035e7-a914-4999-9fda-6031e0629eea": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.03s with a peak simultaneous store occupancy of 3 people. 1 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around South Merchandising Display. Most common movement pathway: South Merchandising Display. Observed 0 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.03s (median: 2s). Zones with above-average engagement include: South Merchandising Display (3.05s).",
+      "bottleneck_findings": "Identified 1 potential bottleneck(s): South Merchandising Display (Score: 79/100, Evidence: Elevated peak concurrency: 2 simultaneous customer tracks observed)",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"South Merchandising Display\" observed in 3 customer track(s) (50% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "South Merchandising Display",
+          "type": "Congestion Alleviation",
+          "evidence": "Elevated peak concurrency: 2 simultaneous customer tracks observed; Prolonged dwell duration: 3.05s exceeds store average (2.03s); High spatial traffic density: 4.0 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in South Merchandising Display to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in South Merchandising Display to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Testing directional aisle signage will increase multi-zone journey completion rate.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "3c3035e7-a914-4999-9fda-6031e0629eea",
+        "generatedTimestamp": "2026-10-06T16:03:28.120Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "18c277bb-cc9b-42dc-bd22-e652143f5d0e": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.53s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 1 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left Sector). Most common movement pathway: Region 3 (Lower Left Sector). Observed 6 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.53s (median: 2.5s). Zones with above-average engagement include: Region 3 (Lower Left Sector) (3.1s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left Sector) (Score: 80.2/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks)). Region 4 (Lower Right Sector) (Score: 72.5/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks))",
+      "dead_zone_findings": "Identified 1 potential dead zone(s): Region 1 (Upper Left Sector) (Score: 90/100, Deficiency: 90/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 3 (Lower Left Sector)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left Sector)",
+          "type": "Congestion Alleviation",
+          "evidence": "67% relative store peak occupancy (2 simultaneous customer tracks); Prolonged dwell duration: 3.1s exceeds store average (2.53s); Elevated spatial traffic density: 6.85 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left Sector) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left Sector)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Low customer penetration: only 14.3% of tracked individuals visited (1 visitors); Negligible concurrency: maximum 1 customer present simultaneously",
+          "recommendation": "Introduce focal visual merchandising, promotional signage, or destination product categories in Region 1 (Upper Left Sector) to redistribute foot-traffic from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left Sector), Region 4 (Lower Right Sector) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left Sector)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Adding eye-level feature signage at the entrance to Region 1 (Upper Left Sector) will increase customer traversal share by at least 15%.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "18c277bb-cc9b-42dc-bd22-e652143f5d0e",
+        "generatedTimestamp": "2026-10-06T16:30:49.639Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "9d578065-d463-4e14-bfe8-42016a6f2c53": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.23s with a peak simultaneous store occupancy of 3 people. 1 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around South Merchandising Display. Most common movement pathway: South Merchandising Display. Observed 0 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.23s (median: 2.5s). Zones with above-average engagement include: South Merchandising Display (3.05s).",
+      "bottleneck_findings": "Identified 1 potential bottleneck(s): South Merchandising Display (Score: 79/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks))",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"South Merchandising Display\" observed in 3 customer track(s) (50% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "South Merchandising Display",
+          "type": "Congestion Alleviation",
+          "evidence": "67% relative store peak occupancy (2 simultaneous customer tracks); Prolonged dwell duration: 3.05s exceeds store average (2.23s); Unconstrained movement speed: 107.7 px/s indicates fluid traversal; Elevated spatial traffic density: 4.0 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in South Merchandising Display to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in South Merchandising Display to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Testing directional aisle signage will increase multi-zone journey completion rate.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "9d578065-d463-4e14-bfe8-42016a6f2c53",
+        "generatedTimestamp": "2026-10-06T16:31:14.550Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "f2c5b1a5-2c62-4bab-8d03-687cab8094b6": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.53s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 1 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left Sector). Most common movement pathway: Region 3 (Lower Left Sector). Observed 6 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.53s (median: 2.5s). Zones with above-average engagement include: Region 3 (Lower Left Sector) (3.1s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left Sector) (Score: 80.2/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks)). Region 4 (Lower Right Sector) (Score: 72.5/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks))",
+      "dead_zone_findings": "Identified 1 potential dead zone(s): Region 1 (Upper Left Sector) (Score: 90/100, Deficiency: 90/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 3 (Lower Left Sector)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left Sector)",
+          "type": "Congestion Alleviation",
+          "evidence": "67% relative store peak occupancy (2 simultaneous customer tracks); Prolonged dwell duration: 3.1s exceeds store average (2.53s); Elevated spatial traffic density: 6.85 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left Sector) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left Sector)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Low customer penetration: only 14.3% of tracked individuals visited (1 visitors); Negligible concurrency: maximum 1 customer present simultaneously",
+          "recommendation": "Introduce focal visual merchandising, promotional signage, or destination product categories in Region 1 (Upper Left Sector) to redistribute foot-traffic from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left Sector), Region 4 (Lower Right Sector) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left Sector)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Adding eye-level feature signage at the entrance to Region 1 (Upper Left Sector) will increase customer traversal share by at least 15%.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "f2c5b1a5-2c62-4bab-8d03-687cab8094b6",
+        "generatedTimestamp": "2026-10-06T16:33:03.930Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "6558785e-0f8c-4e38-937d-3abda5b47663": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 2.23s with a peak simultaneous store occupancy of 3 people. 1 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around South Merchandising Display. Most common movement pathway: South Merchandising Display. Observed 0 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 2.23s (median: 2.5s). Zones with above-average engagement include: South Merchandising Display (3.05s).",
+      "bottleneck_findings": "Identified 1 potential bottleneck(s): South Merchandising Display (Score: 79/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks))",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"South Merchandising Display\" observed in 3 customer track(s) (50% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "South Merchandising Display",
+          "type": "Congestion Alleviation",
+          "evidence": "67% relative store peak occupancy (2 simultaneous customer tracks); Prolonged dwell duration: 3.05s exceeds store average (2.23s); Unconstrained movement speed: 107.7 px/s indicates fluid traversal; Elevated spatial traffic density: 4.0 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in South Merchandising Display to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in South Merchandising Display to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Testing directional aisle signage will increase multi-zone journey completion rate.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "6558785e-0f8c-4e38-937d-3abda5b47663",
+        "generatedTimestamp": "2026-10-06T16:33:28.828Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "2e63e790-b5ff-435f-aff5-33d2c4382bde": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 7 unique tracked customer visits across 49.67s of footage. Overall average dwell time was 3.42s with a peak simultaneous store occupancy of 3 people. 2 potential bottleneck area(s) and 2 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 3 (Lower Left). Most common movement pathway: Region 4 (Lower Right) → Region 3 (Lower Left). Observed 2 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 3.42s (median: 4.5s). Zones with above-average engagement include: Region 3 (Lower Left) (3.5s).",
+      "bottleneck_findings": "Identified 2 potential bottleneck(s): Region 3 (Lower Left) (Score: 80.4/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks)). Region 4 (Lower Right) (Score: 78.5/100, Evidence: 67% relative store peak occupancy (2 simultaneous customer tracks))",
+      "dead_zone_findings": "Identified 2 potential dead zone(s): Region 1 (Upper Left) (Score: 100/100, Deficiency: 100/100, Evidence: Zero customer visits recorded during observed footage). Region 2 (Upper Right) (Score: 100/100, Deficiency: 100/100, Evidence: Zero customer visits recorded during observed footage)",
+      "journey_findings": "Top journey pattern is \"Region 4 (Lower Right) → Region 3 (Lower Left)\" observed in 2 customer track(s) (28.6% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 3 (Lower Left)",
+          "type": "Congestion Alleviation",
+          "evidence": "67% relative store peak occupancy (2 simultaneous customer tracks); Prolonged dwell duration: 3.5s exceeds store average (3.42s); Elevated spatial traffic density: 6.03 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 3 (Lower Left) to alleviate observed transit bottlenecks."
+        },
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Foot-Traffic Revitalization",
+          "evidence": "Zero customer visits recorded during observed footage; Zero customer penetration observed; Negligible concurrency: maximum 0 customer present simultaneously",
+          "recommendation": "Introduce focal visual merchandising, promotional signage, or destination product categories in Region 1 (Upper Left) to redistribute foot-traffic from congested zones."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 3 (Lower Left), Region 4 (Lower Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Review product placement and category visibility in Region 1 (Upper Left), Region 2 (Upper Right)."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Adding eye-level feature signage at the entrance to Region 1 (Upper Left) will increase customer traversal share by at least 15%.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "High tracking consistency: persistent tracks with continuous customer trajectories.",
+      "metadata": {
+        "analysisId": "2e63e790-b5ff-435f-aff5-33d2c4382bde",
+        "generatedTimestamp": "2026-10-06T16:37:27.551Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "ccadde24-3e2f-4323-a835-b4f2fc145bf4": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 90 unique tracked customer visits across 111.05s of footage. Overall average dwell time was 9.11s with a peak simultaneous store occupancy of 13 people. 3 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 1 (Upper Left). Most common movement pathway: Region 1 (Upper Left). Observed 11 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 9.11s (median: 3.97s). Zones with above-average engagement include: Region 1 (Upper Left) (10.74s).",
+      "bottleneck_findings": "Identified 3 potential bottleneck(s): Region 1 (Upper Left) (Score: 85.2/100, Evidence: 62% relative store peak occupancy (8 simultaneous customer tracks)). Region 3 (Lower Left) (Score: 50.6/100, Evidence: 38% relative store peak occupancy (5 simultaneous customer tracks)). Region 4 (Lower Right) (Score: 48.2/100, Evidence: 46% relative store peak occupancy (6 simultaneous customer tracks))",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"Region 1 (Upper Left)\" observed in 37 customer track(s) (41.1% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Congestion Alleviation",
+          "evidence": "62% relative store peak occupancy (8 simultaneous customer tracks); Prolonged dwell duration: 10.74s exceeds store average (9.11s); Movement slowdown: 22.1 px/s (26% slower than store median 29.9 px/s); Elevated spatial traffic density: 76.56 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 1 (Upper Left) to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 1 (Upper Left), Region 3 (Lower Left), Region 4 (Lower Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Testing directional aisle signage will increase multi-zone journey completion rate.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry handled.",
+      "metadata": {
+        "analysisId": "ccadde24-3e2f-4323-a835-b4f2fc145bf4",
+        "generatedTimestamp": "2026-10-06T16:37:51.903Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    },
+    "05b0ce3a-fa90-4bd6-b71c-0fd17b440b0c": {
+      "is_ai_generated": false,
+      "disclaimer": "AI interpretation unavailable. Showing deterministic analytics based directly on verified computer vision facts.",
+      "executive_summary": "Video analysis observed 90 unique tracked customer visits across 111.05s of footage. Overall average dwell time was 7.11s with a peak simultaneous store occupancy of 13 people. 4 potential bottleneck area(s) and 0 potential dead-zone area(s) were deterministically identified.",
+      "customer_flow": "Primary traffic flow centers around Region 1 (Upper Left). Most common movement pathway: Region 1 (Upper Left). Observed 8 distinct zone-to-zone transitions.",
+      "dwell_time_findings": "Average dwell duration across all zones was 7.11s (median: 4.28s). Zones with above-average engagement include: Region 2 (Upper Right) (8.52s), Region 3 (Lower Left) (8.1s).",
+      "bottleneck_findings": "Identified 4 potential bottleneck(s): Region 1 (Upper Left) (Score: 77.6/100, Evidence: 62% relative store peak occupancy (8 simultaneous customer tracks)). Region 3 (Lower Left) (Score: 57.1/100, Evidence: 38% relative store peak occupancy (5 simultaneous customer tracks)). Region 4 (Lower Right) (Score: 55.1/100, Evidence: 46% relative store peak occupancy (6 simultaneous customer tracks)). Region 2 (Upper Right) (Score: 51.8/100, Evidence: 23% relative store peak occupancy (3 simultaneous customer tracks))",
+      "dead_zone_findings": "All monitored regions demonstrated healthy customer traversal.",
+      "journey_findings": "Top journey pattern is \"Region 1 (Upper Left)\" observed in 38 customer track(s) (42.2% of multi-zone visits).",
+      "recommendations": [
+        {
+          "area": "Region 1 (Upper Left)",
+          "type": "Congestion Alleviation",
+          "evidence": "62% relative store peak occupancy (8 simultaneous customer tracks); Movement slowdown: 21.8 px/s (26% slower than store median 29.4 px/s); Elevated spatial traffic density: 62.02 visitors per 100k sq px",
+          "recommendation": "Widen primary aisle clearance or reposition high-interaction displays in Region 1 (Upper Left) to alleviate observed transit bottlenecks."
+        }
+      ],
+      "priority_actions": [
+        {
+          "priority": "High",
+          "action": "Audit aisle clearance in Region 1 (Upper Left), Region 3 (Lower Left), Region 4 (Lower Right), Region 2 (Upper Right) to eliminate movement slowdowns."
+        },
+        {
+          "priority": "Medium",
+          "action": "Compare peak occupancy periods with staff scheduling."
+        },
+        {
+          "priority": "Low",
+          "action": "Conduct subsequent video analysis after implementing spatial adjustments to evaluate before/after metrics."
+        }
+      ],
+      "suggested_experiments": [
+        {
+          "hypothesis": "Testing directional aisle signage will increase multi-zone journey completion rate.",
+          "metric_to_track": "Traffic share (%) and zone entry count",
+          "method": "A/B layout comparison recording 30 minutes of footage under each configuration."
+        }
+      ],
+      "tracking_limitations": "Satisfactory tracking with occasional occlusion or boundary re-entry handled.",
+      "metadata": {
+        "analysisId": "05b0ce3a-fa90-4bd6-b71c-0fd17b440b0c",
+        "generatedTimestamp": "2026-10-07T06:21:55.283Z",
+        "reportVersion": "v2.1",
+        "analyticsVersion": "v2.0-canonical"
+      }
+    }
+  }
+}
