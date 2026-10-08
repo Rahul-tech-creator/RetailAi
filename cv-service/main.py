@@ -101,6 +101,7 @@ def run_pipeline_task(req: ProcessRequest):
             JOBS[job_id]["stage"] = "Processing failed"
             JOBS[job_id]["error"] = str(e)
 
+@app.get("/")
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "retail-cv-service", "version": "1.1.0"}
